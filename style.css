@@ -688,3 +688,214 @@ footer {
         font-size: 19px;
     }
 }
+/* ===== Light Mode Theme ===== */
+
+body.light-mode {
+    background: #f5f7fb;
+    color: #1e293b;
+}
+
+body.light-mode header {
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+body.light-mode .logo,
+body.light-mode .nav-links a {
+    color: #1e293b;
+}
+
+body.light-mode .section-label {
+    color: #7c3aed;
+}
+
+body.light-mode .about-card,
+body.light-mode .project-card,
+body.light-mode .skill {
+    background: #ffffff;
+    color: #1e293b;
+    border-color: #ddd6fe;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .about-card p,
+body.light-mode .project-card p {
+    color: #475569;
+}
+
+body.light-mode .about-card h3,
+body.light-mode .project-card h3 {
+    color: #1e293b;
+}
+
+body.light-mode footer {
+    background: #ffffff;
+    color: #475569;
+}
+
+body.light-mode .contact {
+    background: #ede9fe;
+}
+/* ===== Theme Toggle Button ===== */
+
+.theme-btn {
+    background: #1e293b;
+    color: #fff;
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+.theme-btn:hover {
+    transform: rotate(15deg);
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.35);
+}
+
+body.light-mode .theme-btn {
+    background: #ede9fe;
+    color: #4c1d95;
+}
+/* ===== Light Mode Hero Fix ===== */
+
+body.light-mode .hero {
+    background:
+        radial-gradient(circle at 85% 15%, #e9ddff 0%, transparent 38%),
+        radial-gradient(circle at 10% 85%, #e0e7ff 0%, transparent 35%),
+        #f5f7fb;
+}
+
+body.light-mode .hero h1 {
+    color: #1e293b;
+}
+
+body.light-mode .hero h2 {
+    color: #334155;
+}
+
+body.light-mode .hero-description {
+    color: #475569;
+}
+
+body.light-mode .intro {
+    color: #7c3aed;
+}
+
+body.light-mode .secondary {
+    color: #4c1d95;
+}
+
+body.light-mode .menu-btn {
+    color: #1e293b;
+}
+
+/* ===== Typing Animation ===== */
+
+.typing-line {
+    margin-top: 12px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #a78bfa;
+    min-height: 32px;
+}
+
+#typingText {
+    border-right: 2px solid #8b5cf6;
+    padding-right: 4px;
+    animation: blinkCursor 0.7s infinite;
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+body.light-mode .typing-line {
+    color: #7c3aed;
+}
+/* ===== Scroll Reveal Animation ===== */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* ===== Back To Top Button ===== */
+
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #8b5cf6;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(139, 92, 246, 0.4);
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+#backToTop:hover {
+    transform: translateY(-5px);
+    background: #7c3aed;
+}
+/* ===== Complete Light Mode Fix ===== */
+
+body.light-mode .hero {
+    background:
+        radial-gradient(circle at 85% 15%, #e9ddff 0%, transparent 38%),
+        radial-gradient(circle at 10% 85%, #e0e7ff 0%, transparent 35%),
+        #f5f7fb;
+}
+
+body.light-mode .hero h1 {
+    color: #1e293b;
+}
+
+body.light-mode .hero h2 {
+    color: #334155;
+}
+
+body.light-mode .hero-description {
+    color: #475569;
+}
+
+body.light-mode .intro {
+    color: #7c3aed;
+}
+
+body.light-mode .secondary {
+    color: #4c1d95;
+}
+
+body.light-mode .menu-btn {
+    color: #1e293b;
+}
+
+body.light-mode .nav-links {
+    background: #ffffff;
+}
+
+body.light-mode .typing-line {
+    color: #7c3aed;
+}

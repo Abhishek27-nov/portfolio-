@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio of Abhishek Choudhary, showcasing skills and projects.">
+    <meta name="description" content="Explore the personal portfolio of Abhishek Choudhary, a Computer Science and Engineering student learning web development, programming, Python and software development.">
+<meta name="author" content="Abhishek Choudhary">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Abhishek Choudhary | Portfolio">
+<meta property="og:description" content="Computer Science and Engineering student learning web development and programming.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://abhishek27-nov.github.io/portfolio-/">
+<meta property="og:image" content="https://abhishek27-nov.github.io/portfolio-/profile.jpg">
     <title>Abhishek Choudhary | Portfolio</title> 
    <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="profile.jpg">
@@ -26,6 +33,9 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button id="themeToggle" class="theme-btn" aria-label="Switch to light mode">
+                ☀️
+            </button>
         </nav>
     </header>
 
@@ -36,6 +46,9 @@
                 <p class="intro">HELLO, WELCOME TO MY PORTFOLIO</p>
                 <h1>Hi, I'm <span>Abhishek Choudhary</span></h1>
                 <h2>B.Tech - Computer Science and Engineering</h2>
+<p class="typing-line">
+    I am a <span id="typingText"></span>
+</p>
                 <p class="hero-description">
                     I am a computer science student interested in
                     technology, programming and web development.
@@ -120,20 +133,22 @@
         <article class="project-card">
             <div class="project-number">02</div>
             <h3>Student Management System</h3>
-            <p>
-                A learning project designed to organize
-                student information and academic records.
-            </p>
+      <p>
+    A Python-based learning project planned to manage
+    student details, maintain academic records and
+    organize student information.
+</p>
             <span class="tag">Python • Learning Project</span>
         </article>
 
         <article class="project-card">
             <div class="project-number">03</div>
             <h3>Future Project</h3>
-            <p>
-                More programming projects will be added
-                as I continue learning new technologies.
-            </p>
+       <p>
+    New projects demonstrating my programming,
+    problem-solving and software development skills
+    will be added here as I continue learning.
+</p>
             <span class="tag">Coming Soon</span>
         </article>
 
@@ -152,7 +167,7 @@
 </p>
 
 <div class="hero-buttons">
-    <a href="https://github.com/Abhishek27-nov"
+    <a href="https://github.com/Abhishek27-nov/portfolio-"
        target="_blank"
        rel="noopener noreferrer"
        class="btn secondary">
@@ -173,6 +188,9 @@
     <p>© <span id="year"></span> Abhishek Choudhary. All rights reserved.</p>
     <p>Designed with HTML, CSS and JavaScript.</p>
 </footer>
+<button id="backToTop" title="Go to top" aria-label="Back to top">
+    ↑
+</button>
 
     <script src="script.js"></script>
 </body>
